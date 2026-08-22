@@ -1,0 +1,5 @@
+{
+  "seed": 42,
+  "root_cause_event_id": "cloudwatch:0107",
+  "root_cause": "The connection pool for 'payments-db' in order-service exhausted (active=20 idle=0 waiting=37) after a period of slow checkouts, causing checkout timeouts that cascaded into gateway upstream 500s and tripped a circuit breaker for order-service."
+}
